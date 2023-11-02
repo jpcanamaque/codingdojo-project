@@ -5,7 +5,7 @@ This project repository contains the data analysis and model training using the 
 
 [HERE](/assets/Sales%20Prediction%20Model.pptx)
 
-/assets/sales_pred_vid.mp4
+https://github.com/jpcanamaque/codingdojo-project/blob/master/assets/sales_pred_vid.mp4
 
 
 ## Data Definition
