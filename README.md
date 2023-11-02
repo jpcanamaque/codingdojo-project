@@ -5,7 +5,7 @@ This project repository contains the data analysis and model training using the 
 
 [HERE](/assets/Sales%20Prediction%20Model.pptx)
 
-[![Watch the video](/assets/thumbnail.png)](/assets/sales_pred_vid.mp4)
+/assets/sales_pred_vid.mp4
 
 
 ## Data Definition
