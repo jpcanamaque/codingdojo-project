@@ -27,12 +27,12 @@ The data used for this project is from the sales of food items at various stores
 | Outlet_Establishment_Year | The year in which the store was established                                                             |
 | Outlet_Size               | The size of the store in terms of ground area covered                                               |
 | Outlet_Location_Type      | The type of area in which the store is located                                                      |
-| Outlet_Type               | Whether the outlet is a grocery store or some sort of supermarket                                   |
+| Outlet_Type               | Whether the outlet is a grocery store or some supermarket                                   |
 | Item_Outlet_Sales         | Sales of the product in the particular store. This is the target variable to be predicted.          |
 
 ## Data Analysis
 
-View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojhkHTzv6Bz9EM6I?usp=sharing)
+View the EDA [here](https://github.com/jpcanamaque/codingdojo-project/blob/master/CodingDojo_Project_EDA.ipynb)
 
 ### Exploratory Data Analysis (EDA)
 - Dataset has 7 categorical columns and 5 numerical columns
@@ -46,7 +46,7 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 ![Top 10 Highest Total Average Sales per Outlet](/assets/top10_high_and_average_sales.png)
 
 - Based on the graph above, OUT027 has the highest sales all time with around 3.45 million sales, averaging 3694.04 of sales all time
-- Based on the graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 of sales all time
+- Based on the graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 sales all-time
 
 ![Outlet Sales Trend per Location Type ](/assets/sales_per_loctype.png)
 - Tier 1 has an uptrend that spans from 1985 up to 2000.
@@ -54,6 +54,8 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 - Tier 3 had a downtrend from 1985 to 1997, but had an uptrend from 1997 until 2010
 
 ## Model Design
+
+Modeling notebook: [HERE](https://github.com/jpcanamaque/codingdojo-project/blob/master/CodingDojo_Project_ML.ipynb)
 
 ### Comparision of implemented models
 |    Metrics           | Linear Regression | Decision Trees Regression* |
@@ -65,7 +67,7 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 
 \* Decision Trees Regression is tuned by using `max_depth` only
 
-Based on the comparison of each metrics used in measuring the models implemented, Decision Trees Regression is the best model in predicting sales using our data. It provided a better performance in R2 and RMSE scores.
+Based on the comparison of each metric used in measuring the models implemented, the Decision Trees Regression is the best model for predicting sales using our data. It provided a better performance in R2 and RMSE scores.
 
 
 ## Summary and Recommendation
