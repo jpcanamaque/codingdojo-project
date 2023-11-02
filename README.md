@@ -37,12 +37,12 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 
 ### Explanatory Data Analysis
 
-![Top 10 Highest Total Average Sales per Outlet]('/images/top10_high_and_average_sales.png')
+![Top 10 Highest Total Average Sales per Outlet](/images/top10_high_and_average_sales.png)
 
 - Based on the graph above, OUT027 has the highest sales all time with around 3.45 million sales, averaging 3694.04 of sales all time
 - Based on the graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 of sales all time
 
-![Outlet Sales Trend per Location Type ]('/images/sales_per_loctype.png')
+![Outlet Sales Trend per Location Type ](/images/sales_per_loctype.png)
 - Tier 1 has an uptrend that spans from 1985 up to 2000.
 - Tier 2 has an uptrend that spans from around 2002 up to 2007.
 - Tier 3 had a downtrend from 1985 to 1997, but had an uptrend from 1997 until 2010
