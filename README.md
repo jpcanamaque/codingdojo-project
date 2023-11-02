@@ -7,6 +7,12 @@ This project repository contains the data analysis and model training using the 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AyqvPRMWFY8?si=gMkWCJMgbw0GPGxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+[![Watch the video](https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg)](https://www.youtube.com/embed/APOPm01BVrk)
+
+[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/APOPm01BVrk)
+
+
 ## Data Definition
 
 **Link to the data:**
