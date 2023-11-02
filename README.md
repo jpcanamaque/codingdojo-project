@@ -5,8 +5,7 @@ This project repository contains the data analysis and model training using the 
 
 [HERE](/assets/Sales%20Prediction%20Model.pptx)
 
-<img width="630" height="400" alt="your alt text" src="https://youtu.be/AyqvPRMWFY8" />
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AyqvPRMWFY8?si=gMkWCJMgbw0GPGxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Data Definition
 
