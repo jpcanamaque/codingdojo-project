@@ -14,11 +14,11 @@ The data used for this project is from the sales of food items at various stores
 | Item_Identifier           | Unique product ID                                                                                   |
 | Item_Weight               | Weight of product                                                                                   |
 | Item_Fat_Content          | Whether the product is low fat or regular                                                           |
-| Item_Visibility           | The percentage of total display area of all products in a store allocated to the particular product |
+| Item_Visibility           | The percentage of the total display area of all products in a store allocated to the particular product |
 | Item_Type                 | The category to which the product belongs                                                           |
 | Item_MRP                  | Maximum Retail Price (list price) of the product                                                    |
 | Outlet_Identifier         | Unique store ID                                                                                     |
-| Outlet_Establishment_Year | The year in which store was established                                                             |
+| Outlet_Establishment_Year | The year in which the store was established                                                             |
 | Outlet_Size               | The size of the store in terms of ground area covered                                               |
 | Outlet_Location_Type      | The type of area in which the store is located                                                      |
 | Outlet_Type               | Whether the outlet is a grocery store or some sort of supermarket                                   |
@@ -37,12 +37,12 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 
 ### Explanatory Data Analysis
 
-![Top 10 Highest Total Average Sales per Outlet]('/images/top10_high_and_average_sales.png)
+![Top 10 Highest Total Average Sales per Outlet]('/images/top10_high_and_average_sales.png')
 
-- Based on graph above, OUT027 has the highest sales all time with around 3.45 million sales, averaging 3694.04 of sales all time
-- Based on graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 of sales all time
+- Based on the graph above, OUT027 has the highest sales all time with around 3.45 million sales, averaging 3694.04 of sales all time
+- Based on the graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 of sales all time
 
-![Outlet Sales Trend per Location Type ]('/images/sales_per_loctype.png)
+![Outlet Sales Trend per Location Type ]('/images/sales_per_loctype.png')
 - Tier 1 has an uptrend that spans from 1985 up to 2000.
 - Tier 2 has an uptrend that spans from around 2002 up to 2007.
 - Tier 3 had a downtrend from 1985 to 1997, but had an uptrend from 1997 until 2010
@@ -57,9 +57,7 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 | RMSE @ Test              | 1,165             | **1,057**                       |
 | Confidence Score @ Train | 51%               | **60%**                         |
 | Confidence Score @ Test  | 51%               | **59%**                         |
-[^1] Decision Trees Regerssion is tuned by using `max_depth` only
-
-As seen on the table above
+[^1] Decision Trees Regression is tuned by using `max_depth` only
 
 ## Summary and Recommendation
-After analyzing the data and fitting the data to models. I recommend using Decision Trees Regressor as the main model for predicting this data. Since the recommended model is not yet fully tuned, there is still a room for improvement in the model's performance.
+After analyzing the data and fitting the data to models, I recommend using the Decision Trees Regressor as the main model for predicting this data. Since the recommended model is not yet fully tuned, there is still room for improvement in the model's performance.
