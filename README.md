@@ -1,6 +1,13 @@
 # Sales Prediction Model
 This project repository contains the data analysis and model training using the data that came from all food items sold at various stores from 1985 to 2009
 
+### Presentation Material/s: 
+
+[HERE](/assets/Sales%20Prediction%20Model.pptx)
+
+[![Watch the video](/assets/thumbnail.png)](/assets/sales_pred_vid.mp4)
+
+
 ## Data Definition
 
 **Link to the data:**
@@ -37,27 +44,31 @@ View the EDA [here](https://colab.research.google.com/drive/1-vru7kb2L66F5kNqojh
 
 ### Explanatory Data Analysis
 
-![Top 10 Highest Total Average Sales per Outlet](/images/top10_high_and_average_sales.png)
+![Top 10 Highest Total Average Sales per Outlet](/assets/top10_high_and_average_sales.png)
 
 - Based on the graph above, OUT027 has the highest sales all time with around 3.45 million sales, averaging 3694.04 of sales all time
 - Based on the graph above, OUT019 has the lowest sales all time with around 179,694 sales, averaging 340.33 of sales all time
 
-![Outlet Sales Trend per Location Type ](/images/sales_per_loctype.png)
+![Outlet Sales Trend per Location Type ](/assets/sales_per_loctype.png)
 - Tier 1 has an uptrend that spans from 1985 up to 2000.
 - Tier 2 has an uptrend that spans from around 2002 up to 2007.
 - Tier 3 had a downtrend from 1985 to 1997, but had an uptrend from 1997 until 2010
 
-
 ## Model Design
 
 ### Comparision of implemented models
-|    Metrics           | Linear Regression | Decision Trees Regression[^1] |
+|    Metrics           | Linear Regression | Decision Trees Regression* |
 | ------------------------ | ----------------- | --------------------------- |
 | RMSE @ Train             | 1,208             | **1,082**                    |
 | RMSE @ Test              | 1,165             | **1,057**                       |
 | Confidence Score @ Train | 51%               | **60%**                         |
 | Confidence Score @ Test  | 51%               | **59%**                         |
-[^1] Decision Trees Regression is tuned by using `max_depth` only
+
+\* Decision Trees Regression is tuned by using `max_depth` only
+
+Based on the comparison of each metrics used in measuring the models implemented, Decision Trees Regression is the best model in predicting sales using our data. It provided a better performance in R2 and RMSE scores.
+
 
 ## Summary and Recommendation
 After analyzing the data and fitting the data to models, I recommend using the Decision Trees Regressor as the main model for predicting this data. Since the recommended model is not yet fully tuned, there is still room for improvement in the model's performance.
+
